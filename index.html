@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="home rounded bg-grey m-1 p-1">
+                <div class="logo"><img class="invert" src="logo.svg" alt="logo"></div>
+                <ul>
+                    <li ><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li ><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library rounded bg-grey m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="librarylogo.svg" alt="">
+                    <h2>Your Library</h2>
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><span>Cookies</span>
+                        </a>
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="right  rounded bg-grey p-1 ">
+            <div class="header">
+                <div class="nav">
+                    <img src="arrow-left.svg" alt="">
+                    <img src="arrow-right.svg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h1>Spotify Playlists</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="play">
+                            <img class="invert" src="play-circle.svg" alt="" >
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024fea192e4badc04a095e1152" alt="">
+                        <h2>Today’s Top Hits</h2>
+                        <p>Beyoncé is on top of the Hottest 50!</p>
+
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <img class="invert" src="play-circle.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f000000024fea192e4badc04a095e1152" alt="">
+                        <h2>Today’s Top Hits</h2>
+                        <p>Beyoncé is on top of the Hottest 50!</p>
+                    
+                    </div>
+                    <div class="playbar">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img src="previous.svg" alt="" width="20px">
+                            <img src="playsong.svg" alt="" width="20px">
+                            <img src="next.svg" alt="" width="20px">
+                        </div>
+                        <div class="songtime"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
