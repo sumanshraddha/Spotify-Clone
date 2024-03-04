@@ -54,7 +54,6 @@
 }
 .footer a {
   color: grey;
-  
 }
 .header {
   display: flex;
@@ -97,16 +96,15 @@
   right: 15px;
   opacity: 0;
   transition: all 1s ease-out;
-  
 }
 .play img {
   width: 43px;
   height: 43px;
 }
-.buttons>*{
+.buttons > * {
   margin: 0 12px;
 }
-.signupbtn{
+.signupbtn {
   background-color: rgb(34, 34, 34);
   color: white;
   font-weight: bold;
@@ -115,12 +113,12 @@
   cursor: pointer;
   font-size: 15px;
 }
-.signupbtn:hover{
+.signupbtn:hover {
   font-size: 1.1rem;
   color: white;
   font-size: 17px;
 }
-.loginbtn{
+.loginbtn {
   background-color: white;
   border-radius: 21px;
   color: black;
@@ -128,24 +126,29 @@
   width: 79px;
   padding: 10px;
   font-size: 15px;
-
 }
-.loginbtn:hover{
+.loginbtn:hover {
   font-weight: bold;
   padding: 10px 14px;
   font-size: 17px;
-
 }
 
-.playbar{
+.playbar {
   position: absolute;
   bottom: 0;
   background-color: rgb(50, 75, 50);
-  width: 100%;
+  width: 90%;
   padding: 12px;
 }
-.songbuttons{
+.songbuttons {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.songList ul{
+  padding: 0 42px;
+}
+.songList li{
+  list-style-type: decimal;
 }
